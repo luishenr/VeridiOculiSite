@@ -1,75 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Montserrat', sans-serif;
-            background-color: #f0f0f0;
-        }
-        .container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            max-width: 1200px; /* Defina a largura máxima desejada para o container */
-            margin: 0 auto; /* Centralize o container horizontalmente */
-        }
-        .content {
-            background-color: #f5f5f5;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-            padding: 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            height: 60%;
-            width: 80%; /* Ajuste a largura do quadrado conforme necessário */
-            max-width: 100%; /* Ajuste para ocupar a largura máxima do container */
-        }
-        .login-form {
-            flex: 1;
-            margin-right: 20px; /* Adicione uma margem à direita para separar o formulário da logo */
-        }
-        .logo-container {
-            flex: 1;
-            display: flex;
-            justify-content: flex-end; /* Alinhe a logo à direita */
-        }
-        .logo {
-            max-width: 200px; /* Defina o tamanho máximo desejado para o seu logotipo */
-        }
-        .form-group {
-            margin-bottom: 15px;
-        }
-        .form-group input {
-            border-radius: 10px;
-            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-            padding: 10px;
-        }
-        /* Classe personalizada para centralizar texto */
-        .center-text {
-            text-align: center;
-        }
-        /* Classe para centralizar o botão Entrar */
-        .center-button {
-            text-align: center;
-        }
-        /* Estilos personalizados para o botão Entrar */
-        .btn-entrar {
-            background-color: #3caf1b;
-            border: none;
-            border-radius: 10px;
-            padding: 10px 20px;
-            color: #fff;
-        }
-        .btn-entrar:hover {
-            background-color: #4bdb00;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="container">
@@ -78,20 +14,26 @@
                 <h2 class="mb-4 center-text">Login</h2> <!-- Aplicar classe de alinhamento apenas ao título -->
                 <form>
                     <div class="form-group">
-                        <label for="username">Usuário:</label>
+                        <label for="username">Usuário</label>
                         <input type="text" class="form-control" id="username" placeholder="Digite seu usuário">
                     </div>
                     <div class="form-group">
-                        <label for="password">Senha:</label>
+                        <label for="password">Senha</label>
                         <input type="password" class="form-control" id="password" placeholder="Digite sua senha">
                     </div>
                     <div class="center-button">
                         <button type="submit" class="btn btn-entrar">Entrar</button>
                     </div>
+                    <a href="#">Esqueceu sua senha?</a>
+                    <div class="card">
+                        <div class="content">
+                            
+                        </div>
+                    </div>
                 </form>
             </div>
             <div class="logo-container">
-                <img src="seu_logo.png" alt="Logotipo da sua empresa" class="logo">
+                <img src="imgs/logo.png" alt="Logotipo da sua empresa" class="logo">
             </div>
         </div>
     </div>
