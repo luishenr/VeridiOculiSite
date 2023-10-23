@@ -1,6 +1,8 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background-image: linear-gradient(215deg, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.068));
+    /*background-image: linear-gradient(215deg, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.068));*/
+    background-image: url(/imgs/fundo.jpg);
+    background-size: cover;
 }
 .container {
     display: flex;
@@ -118,3 +120,12 @@ a :hover{
     margin-top: 5px;
     margin-bottom: 45px;
 }
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin-top: -30px;
+}
+
