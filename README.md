@@ -1,2 +1,2 @@
 # VeridiOculi
-MVC VeridiOculi
+MVP VeridiOculi
